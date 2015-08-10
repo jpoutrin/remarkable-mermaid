@@ -10,10 +10,10 @@ A plugin that uses custom fences in remarkable to create mermaid diagrams inside
 
   var mermaidAPI = require('mermaidAPI');
 
-  ''``` sequenceDiagram
+  ``` sequenceDiagram
   Alice->>Bob:Hello
   Bob->>Jim:Hi
-  ''```
+  ```
 
 ## Release History
 
