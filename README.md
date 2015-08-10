@@ -10,10 +10,10 @@ A plugin that uses custom code fences in remarkable to create mermaid diagrams i
 
   var mermaidAPI = require('mermaidAPI');
 
-  codefence mermaid
-  sequenceDiagram
-  Alice->>Bob:Hello
-  Bob->>Jim:Hi
+  codefence mermaid\n
+  sequenceDiagram\n
+  Alice->>Bob:Hello\n
+  Bob->>Jim:Hi\n
   codefence
 
 ## Release History
