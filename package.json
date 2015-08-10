@@ -1,0 +1,24 @@
+{
+  "name": "remarkable-mermaid",
+  "version": "1.0.0",
+  "description": "A plugin that uses custom fences in remarkable to create mermaid diagrams inside",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hobokian/remarkable-mermaid.git"
+  },
+  "keywords": [
+    "remarkable",
+    "mermaid",
+    "plugin"
+  ],
+  "author": "Joe Barber <joeyanbarber@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hobokian/remarkable-mermaid/issues"
+  },
+  "homepage": "https://github.com/Hobokian/remarkable-mermaid#readme"
+}
