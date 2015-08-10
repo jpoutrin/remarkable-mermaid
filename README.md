@@ -4,13 +4,13 @@ A plugin that uses custom code fences in remarkable to create mermaid diagrams i
 
 ## Installation
 
-  npm install mermaid-for-remarkable --save
+  npm install remarkable-mermaid --save
 
 ## Usage (Remove () from mermaid)
 
   var mermaidAPI = require('mermaidAPI');
 
-  ``` (mermaid)
+  ``` # mermaid
   sequenceDiagram
   Alice->>Bob:Hello
   Bob->>Jim:Hi
