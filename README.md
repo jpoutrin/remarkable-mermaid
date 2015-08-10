@@ -9,8 +9,6 @@ A plugin that uses custom code fences in remarkable to create mermaid diagrams i
 ## Usage
 ### (Remove # from the front of code fences and remove all empty lines)
 
-  var mermaidAPI = require('mermaidAPI');
-
   #``` mermaid
 
   sequenceDiagram
