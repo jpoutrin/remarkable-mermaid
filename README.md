@@ -11,10 +11,14 @@ A plugin that uses custom code fences in remarkable to create mermaid diagrams i
   var mermaidAPI = require('mermaidAPI');
 
   ``` # mermaid
+
   sequenceDiagram
+
   Alice->>Bob:Hello
+
   Bob->>Jim:Hi
-  ```
+  
+  #```
 
 ## Release History
 
