@@ -1,6 +1,6 @@
 # remarkable-mermaid
 
-A plugin that uses custom fences in remarkable to create mermaid diagrams inside
+A plugin that uses custom code fences in remarkable to create mermaid diagrams inside
 
 ## Installation
 
@@ -10,10 +10,11 @@ A plugin that uses custom fences in remarkable to create mermaid diagrams inside
 
   var mermaidAPI = require('mermaidAPI');
 
-  ``` sequenceDiagram
+  codefence mermaid
+  sequenceDiagram
   Alice->>Bob:Hello
   Bob->>Jim:Hi
-  ```
+  codefence
 
 ## Release History
 
