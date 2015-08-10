@@ -6,18 +6,18 @@ A plugin that uses custom code fences in remarkable to create mermaid diagrams i
 
   npm install remarkable-mermaid --save
 
-## Usage (Remove () from mermaid)
+## Usage (Remove # from the front of code fences and remove all empty lines)
 
   var mermaidAPI = require('mermaidAPI');
 
-  ``` # mermaid
+  #``` mermaid
 
   sequenceDiagram
 
   Alice->>Bob:Hello
 
   Bob->>Jim:Hi
-  
+
   #```
 
 ## Release History
