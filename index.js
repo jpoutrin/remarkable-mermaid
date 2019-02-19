@@ -1,5 +1,5 @@
 
-var mermaidAPI = require('mermaid').mermaidAPI;;
+var mermaidAPI = require('mermaidAPI');;
 
 module.exports = function mermaidPlugin(md, options) {
   md.renderer.rules.fence_custom['mermaid'] = function(tokens, index) {
