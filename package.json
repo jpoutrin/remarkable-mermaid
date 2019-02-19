@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Hobokian/remarkable-mermaid/issues"
   },
-  "homepage": "https://github.com/Hobokian/remarkable-mermaid#readme"
+  "homepage": "https://github.com/Hobokian/remarkable-mermaid#readme",
+  "dependencies": {
+    "mermaid": "^8.0.0",
+  }
 }
